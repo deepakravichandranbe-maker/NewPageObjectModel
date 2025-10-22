@@ -42,6 +42,7 @@ public class HomePage extends TestBase {
 	}
 	
 	public ContactsPage clickOnContactsLink(){
+		//changes
 		contactsLink.click();
 		return new ContactsPage();
 	}
